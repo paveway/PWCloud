@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddCloudFileViewController" customModule="PWCloud" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="arq-tm-yJa" id="FO9-yx-PFz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="arq-tm-yJa">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="arq-tm-yJa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7rM-gX-90q"/>
+                <constraint firstAttribute="trailing" secondItem="arq-tm-yJa" secondAttribute="trailing" id="DiB-Vn-n18"/>
+                <constraint firstItem="arq-tm-yJa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="JX4-tf-0Gj"/>
+                <constraint firstAttribute="bottom" secondItem="arq-tm-yJa" secondAttribute="bottom" id="eaO-6w-Jgg"/>
+                <constraint firstItem="arq-tm-yJa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mmV-f6-xVi"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

@@ -13,6 +13,14 @@
 		3F57F6071CB5137F00076154 /* CloudFileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F6051CB5137F00076154 /* CloudFileListViewController.swift */; };
 		3F57F6081CB5137F00076154 /* CloudFileListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F57F6061CB5137F00076154 /* CloudFileListViewController.xib */; };
 		3F57F60D1CB517C400076154 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F60C1CB517C400076154 /* README.md */; };
+		3F57F6101CB523FE00076154 /* AddCloudFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F60E1CB523FE00076154 /* AddCloudFileViewController.swift */; };
+		3F57F6111CB523FE00076154 /* AddCloudFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F57F60F1CB523FE00076154 /* AddCloudFileViewController.xib */; };
+		3F57F6141CB5244200076154 /* CloudFileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57F6121CB5244200076154 /* CloudFileDetailViewController.swift */; };
+		3F57F6151CB5244200076154 /* CloudFileDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F57F6131CB5244200076154 /* CloudFileDetailViewController.xib */; };
+		3F6CC2581CB5AE7300F6C746 /* EnterLineDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6CC2561CB5AE7300F6C746 /* EnterLineDataTableViewCell.swift */; };
+		3F6CC2591CB5AE7300F6C746 /* EnterLineDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CC2571CB5AE7300F6C746 /* EnterLineDataTableViewCell.xib */; };
+		3F6CC25C1CB5B18C00F6C746 /* EditCloudFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6CC25A1CB5B18C00F6C746 /* EditCloudFileViewController.swift */; };
+		3F6CC25D1CB5B18C00F6C746 /* EditCloudFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CC25B1CB5B18C00F6C746 /* EditCloudFileViewController.xib */; };
 		C4CC993082C57D5073BB3D0C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 385E1CE3D58EE0F8C92D7AEB /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +37,14 @@
 		3F57F6061CB5137F00076154 /* CloudFileListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloudFileListViewController.xib; sourceTree = "<group>"; };
 		3F57F6091CB5159400076154 /* PWCloud-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PWCloud-Bridging-Header.h"; sourceTree = "<group>"; };
 		3F57F60C1CB517C400076154 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		3F57F60E1CB523FE00076154 /* AddCloudFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCloudFileViewController.swift; sourceTree = "<group>"; };
+		3F57F60F1CB523FE00076154 /* AddCloudFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCloudFileViewController.xib; sourceTree = "<group>"; };
+		3F57F6121CB5244200076154 /* CloudFileDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudFileDetailViewController.swift; sourceTree = "<group>"; };
+		3F57F6131CB5244200076154 /* CloudFileDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloudFileDetailViewController.xib; sourceTree = "<group>"; };
+		3F6CC2561CB5AE7300F6C746 /* EnterLineDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterLineDataTableViewCell.swift; sourceTree = "<group>"; };
+		3F6CC2571CB5AE7300F6C746 /* EnterLineDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterLineDataTableViewCell.xib; sourceTree = "<group>"; };
+		3F6CC25A1CB5B18C00F6C746 /* EditCloudFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCloudFileViewController.swift; sourceTree = "<group>"; };
+		3F6CC25B1CB5B18C00F6C746 /* EditCloudFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditCloudFileViewController.xib; sourceTree = "<group>"; };
 		8ECC82EAEDCB9E79561DB2EA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +85,14 @@
 				3F57F5F21CB510B300076154 /* AppDelegate.swift */,
 				3F57F6051CB5137F00076154 /* CloudFileListViewController.swift */,
 				3F57F6061CB5137F00076154 /* CloudFileListViewController.xib */,
+				3F57F6121CB5244200076154 /* CloudFileDetailViewController.swift */,
+				3F57F6131CB5244200076154 /* CloudFileDetailViewController.xib */,
+				3F57F60E1CB523FE00076154 /* AddCloudFileViewController.swift */,
+				3F57F60F1CB523FE00076154 /* AddCloudFileViewController.xib */,
+				3F6CC25A1CB5B18C00F6C746 /* EditCloudFileViewController.swift */,
+				3F6CC25B1CB5B18C00F6C746 /* EditCloudFileViewController.xib */,
+				3F6CC2561CB5AE7300F6C746 /* EnterLineDataTableViewCell.swift */,
+				3F6CC2571CB5AE7300F6C746 /* EnterLineDataTableViewCell.xib */,
 				3F57F5F91CB510B300076154 /* Assets.xcassets */,
 				3F57F5FB1CB510B300076154 /* LaunchScreen.storyboard */,
 				3F57F5FE1CB510B300076154 /* Info.plist */,
@@ -163,7 +187,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F57F5FD1CB510B300076154 /* LaunchScreen.storyboard in Resources */,
+				3F6CC2591CB5AE7300F6C746 /* EnterLineDataTableViewCell.xib in Resources */,
+				3F6CC25D1CB5B18C00F6C746 /* EditCloudFileViewController.xib in Resources */,
 				3F57F5FA1CB510B300076154 /* Assets.xcassets in Resources */,
+				3F57F6151CB5244200076154 /* CloudFileDetailViewController.xib in Resources */,
+				3F57F6111CB523FE00076154 /* AddCloudFileViewController.xib in Resources */,
 				3F57F6081CB5137F00076154 /* CloudFileListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,9 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F57F6101CB523FE00076154 /* AddCloudFileViewController.swift in Sources */,
 				3F57F60D1CB517C400076154 /* README.md in Sources */,
+				3F6CC25C1CB5B18C00F6C746 /* EditCloudFileViewController.swift in Sources */,
+				3F57F6141CB5244200076154 /* CloudFileDetailViewController.swift in Sources */,
 				3F57F6071CB5137F00076154 /* CloudFileListViewController.swift in Sources */,
 				3F57F5F31CB510B300076154 /* AppDelegate.swift in Sources */,
+				3F6CC2581CB5AE7300F6C746 /* EnterLineDataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
