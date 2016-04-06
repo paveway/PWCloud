@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PWCloud
 //
-//  Created by 二俣征嗣 on 2016/04/06.
+//  Created by mfuta1971 on 2016/04/06.
 //  Copyright © 2016年 Paveway. All rights reserved.
 //
 
@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        let vc = CloudFileListViewController()
+        let nc = UINavigationController(rootViewController: vc)
+        let frame = UIScreen.mainScreen().bounds
+        window = UIWindow(frame: frame)
+        window?.rootViewController = nc
+        window?.makeKeyAndVisible()
         return true
     }
 
